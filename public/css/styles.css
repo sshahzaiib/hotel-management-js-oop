@@ -1,0 +1,92 @@
+body {
+	background-color: #f8f9fa !important;
+}
+
+body::-webkit-scrollbar, .addmenu-container::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+body::-webkit-scrollbar-track, .addmenu-container::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 100px;
+}
+
+body::-webkit-scrollbar-thumb, .addmenu-container::-webkit-scrollbar-thumb {
+	background-color: darkgrey;
+	outline: 1px solid slategrey;
+	border-radius: 100px;
+}
+
+nav {
+	padding: 0.5em 3em !important;
+}
+
+.login-header, .addmenu-header {
+	position: relative;
+	height: 90vh;
+}
+
+.form-container {
+	width: 300px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* border: 1px solid gray; */
+	padding: 1em 2em 3em;
+	padding-top: 1em;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 10px 10px 10px #999;
+}
+
+.form-title {
+	text-align: center;
+	margin: 1em;
+}
+
+.submit-btn {
+	width: 100%;
+}
+
+.register-header {
+	position: relative;
+	height: 120vh;
+}
+.register-form-container {
+	width: 500px !important;
+}
+
+.profile-card-logo {
+	border-radius: 50%;
+	width: 60%;
+	align-self: center;
+	margin-top: 1em;
+}
+
+.addmenu-container {
+    height: 450px;
+    overflow-y: auto;
+}
+
+.btn-add {
+	background: #28a745;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.repeater-btn {
+	position: absolute;
+    top: 4px;
+    left: 83%;
+}
+
+#repeater {
+	padding-top: 12px;
+}
+
+.ing-input {
+	margin-bottom: 5px;
+}

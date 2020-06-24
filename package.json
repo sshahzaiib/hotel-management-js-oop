@@ -1,0 +1,16 @@
+{
+  "name": "hotel-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js"
+  },
+  "author": "shahzaib",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "multer": "^1.4.2",
+    "path": "^0.12.7"
+  }
+}

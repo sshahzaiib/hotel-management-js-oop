@@ -1,0 +1,30 @@
+{
+  "hotel": [
+    {
+      "name": "Demo Hotel",
+      "contact": "1234567890",
+      "email": "hotel@demo.com",
+      "password": "123456",
+      "description": "Demo hotel description",
+      "image": "/uploads/logo-1593017217126.png",
+      "id": 1
+    }
+  ],
+  "menu": [
+    {
+      "hotelName": "Demo Hotel",
+      "hotelContact": "1234567890",
+      "ingredients": [
+        "ing 1",
+        "ing 2",
+        "ing 3"
+      ],
+      "cuisine": "Desi",
+      "name": "Demo dish",
+      "serving": "3",
+      "price": "299",
+      "thumbnail": "/uploads/logo-1593017426295.jpg",
+      "id": 1
+    }
+  ]
+}
